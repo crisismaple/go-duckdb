@@ -1,12 +1,12 @@
-module github.com/marcboeker/go-duckdb/arrowmapping
+module code.byted.org/dc/go-duckdb/arrowmapping
 
-go 1.24
+go 1.21
 
 require (
-	github.com/duckdb/duckdb-go-bindings v0.1.15
-	github.com/duckdb/duckdb-go-bindings/darwin-amd64 v0.1.10
-	github.com/duckdb/duckdb-go-bindings/darwin-arm64 v0.1.10
-	github.com/duckdb/duckdb-go-bindings/linux-amd64 v0.1.10
-	github.com/duckdb/duckdb-go-bindings/linux-arm64 v0.1.10
-	github.com/duckdb/duckdb-go-bindings/windows-amd64 v0.1.10
+	code.byted.org/dc/duckdb-go-bindings v0.1.15
+	code.byted.org/dc/duckdb-go-bindings/darwin-amd64 v0.0.0-20250528084857-9c8e2d686644
+	code.byted.org/dc/duckdb-go-bindings/darwin-arm64 v0.0.0-20250528084857-9c8e2d686644
+	code.byted.org/dc/duckdb-go-bindings/linux-amd64 v0.0.0-20250528084857-9c8e2d686644
+	code.byted.org/dc/duckdb-go-bindings/linux-arm64 v0.0.0-20250528084857-9c8e2d686644
+	code.byted.org/dc/duckdb-go-bindings/windows-amd64 v0.0.0-20250528084857-9c8e2d686644
 )

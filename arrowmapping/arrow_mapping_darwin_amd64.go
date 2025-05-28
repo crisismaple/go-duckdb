@@ -3,7 +3,7 @@
 package arrowmapping
 
 import (
-	bindings "github.com/duckdb/duckdb-go-bindings/darwin-amd64"
+	bindings "code.byted.org/dc/duckdb-go-bindings/darwin-amd64"
 )
 
 // Pointers.

@@ -1,9 +1,10 @@
 //go:build duckdb_use_lib || duckdb_use_static_lib
+// +build duckdb_use_lib duckdb_use_static_lib
 
 package mapping
 
 import (
-	bindings "github.com/duckdb/duckdb-go-bindings"
+	bindings "code.byted.org/dc/duckdb-go-bindings"
 )
 
 // Enums.
